@@ -23,9 +23,31 @@ namespace TaskQueue
 
             QueueThread queueThread = new QueueThread(countParallelTask, tasks);
 
+            UserInputReceiver(tasks, queueThread);
+
             queueThread.StartTreatmentQueueTasks();
 
             Console.ReadKey();
+        }
+
+        static void UserInputReceiver(QueueTasks queueTasks, QueueThread queueThread)
+        {
+            ThreadPool.QueueUserWorkItem(_ =>
+            {
+                while (true)
+                {
+                    var ch = Console.ReadKey(false).Key;
+                    switch (ch)
+                    {
+                        case ConsoleKey.Escape:
+                            queueTasks.ClearQueueTasks();
+                            return;
+                        case ConsoleKey.Backspace:
+                            queueThread.StopTreatmentQueueTasks();
+                            break;
+                    }
+                }
+            });
         }
     }
 }
