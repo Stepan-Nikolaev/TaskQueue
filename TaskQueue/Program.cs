@@ -47,6 +47,9 @@ namespace TaskQueue
                         case ConsoleKey.Backspace:
                             queueThread.StopTreatmentQueueTasks();
                             break;
+                        case ConsoleKey.OemPlus:
+                            queueTasks.AddTask();
+                            break;
                     }
                 }
             });

@@ -15,7 +15,7 @@ namespace TaskQueue
             }
         }
 
-        public void AddTask(string message)
+        public void AddTask(string message = "Новая задача")
         {
             _queueTasks.Add(new Task(message));
         }
