@@ -1,0 +1,12 @@
+D:\Степапка\DEX\Домашние задания\TaskQueue\TaskQueue\bin\Debug\netcoreapp3.1\TaskQueue.exe
+D:\Степапка\DEX\Домашние задания\TaskQueue\TaskQueue\bin\Debug\netcoreapp3.1\TaskQueue.deps.json
+D:\Степапка\DEX\Домашние задания\TaskQueue\TaskQueue\bin\Debug\netcoreapp3.1\TaskQueue.runtimeconfig.json
+D:\Степапка\DEX\Домашние задания\TaskQueue\TaskQueue\bin\Debug\netcoreapp3.1\TaskQueue.runtimeconfig.dev.json
+D:\Степапка\DEX\Домашние задания\TaskQueue\TaskQueue\bin\Debug\netcoreapp3.1\TaskQueue.dll
+D:\Степапка\DEX\Домашние задания\TaskQueue\TaskQueue\bin\Debug\netcoreapp3.1\TaskQueue.pdb
+D:\Степапка\DEX\Домашние задания\TaskQueue\TaskQueue\obj\Debug\netcoreapp3.1\TaskQueue.csprojAssemblyReference.cache
+D:\Степапка\DEX\Домашние задания\TaskQueue\TaskQueue\obj\Debug\netcoreapp3.1\TaskQueue.AssemblyInfoInputs.cache
+D:\Степапка\DEX\Домашние задания\TaskQueue\TaskQueue\obj\Debug\netcoreapp3.1\TaskQueue.AssemblyInfo.cs
+D:\Степапка\DEX\Домашние задания\TaskQueue\TaskQueue\obj\Debug\netcoreapp3.1\TaskQueue.dll
+D:\Степапка\DEX\Домашние задания\TaskQueue\TaskQueue\obj\Debug\netcoreapp3.1\TaskQueue.pdb
+D:\Степапка\DEX\Домашние задания\TaskQueue\TaskQueue\obj\Debug\netcoreapp3.1\TaskQueue.genruntimeconfig.cache
