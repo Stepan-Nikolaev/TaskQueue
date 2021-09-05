@@ -13,6 +13,8 @@ namespace TaskQueue
 
             List<Task> queueTasks = new List<Task>();
 
+            Console.WriteLine("В процессе работы програмы нажмите Esc, чтобы очистить очередь задач.");
+            Console.WriteLine("Нажмите Backspace, чтобы остановить обработчик задач.");
             Console.WriteLine("Введите количество задач в очереди на обработку");
             countTasks = Convert.ToInt32(Console.ReadLine());
 
